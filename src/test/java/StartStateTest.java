@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class StartStateTest {
 
     @Test
-    public void test() {
+    void test() {
         assertNull((new StartState()).change());
     }
 }
