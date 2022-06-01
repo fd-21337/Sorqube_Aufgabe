@@ -24,7 +24,7 @@ class Insurance1Test {
             "30,true,0,HIGH,false",
             "20,false,5,MEDIUM,true"
             })
-    public void getInsurance1(int age, boolean married, int numChildren, RISK1 risk, boolean expected) {
+    void getInsurance1(int age, boolean married, int numChildren, RISK1 risk, boolean expected) {
         assertEquals(expected,insurance1.getInsurance(age, married, numChildren, risk));
     }
 
@@ -35,7 +35,7 @@ class Insurance1Test {
             "30,false,0,LOW,true",
             "30,true,0,HIGH,false"
     })
-    public void getInsurance2(int age, boolean married, int numChildren, RISK2 risk, boolean expected) {
+    void getInsurance2(int age, boolean married, int numChildren, RISK2 risk, boolean expected) {
         assertEquals(expected,insurance2.getInsurance(age, married, numChildren, risk));
     }
 

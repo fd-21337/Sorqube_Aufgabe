@@ -2,7 +2,7 @@
 <project version="4">
   <component name="SonarLintProjectSettings">
     <option name="bindingEnabled" value="true" />
-    <option name="projectKey" value="sonarexample" />
-    <option name="serverId" value="fbe" />
+    <option name="projectKey" value="sand2" />
+    <option name="serverId" value="sonar rwu" />
   </component>
 </project>
