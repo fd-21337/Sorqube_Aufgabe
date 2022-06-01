@@ -13,7 +13,7 @@ public class Insurance2 {
      */
     public boolean getInsurance(int age, boolean married, int numChildren, RISK2 risk) {
 
-        if (age > 18 & !(age < 25 & risk == RISK2.HIGH)) {
+        if (age > 18 && !(age < 25 && risk == RISK2.HIGH)) {
             var value = 0.5; // start of with a 50%/50% chance
             value = value  + risk.getValue();
             int m = married ? 1 : 0;
